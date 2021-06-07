@@ -1,0 +1,49 @@
+*{
+    line-height: 150%;
+}
+body, .background, .top{
+    margin: 0px;
+    border: 0px; 
+}
+input{
+    line-height: 100%;
+}
+.h1{
+    font-size: 200%;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.top{
+    padding: 1em;
+    padding-bottom: 0px;
+    background-color: lightblue;
+}
+.func, form{
+    width: 80%;
+    margin: 1em;
+}
+.func{
+    margin:1em;
+    padding:1em;
+    background-color:whitesmoke;
+    border-radius: 1em;
+}
+.top_button{
+    margin: 0.5em;
+}
+#CIUD{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#CIUD > button{
+    margin-left: 1em;
+    margin-right: 1em;
+}
